@@ -5,7 +5,7 @@ let cpuChoice;
 let cpuScore = 0;
 let userScore = 0;
 // Get name of user and store it in variable userName
-const userName = prompt("What is your name");
+const userName = prompt("What is your name?");
 if (userName != " " && userName != null) {
     document.getElementById("userName").innerHTML = userName + ":";
 }
