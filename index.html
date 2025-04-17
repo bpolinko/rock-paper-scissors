@@ -10,6 +10,14 @@
     
    <h1> Rock Paper Scissors</h1>
      
+    <h4> Select your choice:</h4>
+
+    <div class="Buttons">
+        <img class="Rock" src="img/rock4.png" onclick="clickRock()" alt="rock" height="100" width="100">
+        <img class="Paper" src="img/paper2.png" onclick="clickPaper()" alt="paper" height="100" width="100">
+        <img class="Scissors" src="img/scissors.png" onclick="clickScissors()" alt="scissors" height="100" width="100">
+    </div>
+
     <div class="resultsBox">
         <div> Result:</div>
         <div id="result"></div>
@@ -20,15 +28,12 @@
         <div>CPU:</div>
         <div id="cpuScore">0</div>
     </div>
-    <h4> Select your choice:</h4>
 
-    <div class="Buttons">
-        <button class="Rock" onclick="clickRock()">Rock</button>
-        <button class="Paper" onclick="clickPaper()">Paper</button>
-        <button class="Scissors" onclick="clickScissors()">Scissors</button>
-    </div>
+    
 
     <script src="javascript.js"></script>
+
+    
 </body>
 </html>
 

@@ -6,9 +6,11 @@ let cpuScore = 0;
 let userScore = 0;
 // Get name of user and store it in variable userName
 const userName = prompt("What is your name?");
-if (userName != " " && userName != null) {
+if (userName != " " && userName != null && userName != "") {
     document.getElementById("userName").innerHTML = userName + ":";
 }
+
+
 
 // Get CPUs choice randomly and store it in cpuChoice
 function getCpuChoice() {
